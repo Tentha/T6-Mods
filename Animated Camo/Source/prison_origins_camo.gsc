@@ -1,5 +1,7 @@
 #include maps/mp/zombies/_zm_weapons;
 
+//Original Source: https://github.com/teh-bandit/Plutonium-T6ZM/tree/main/Animated%20Camo
+
 main()
 {
 	replacefunc(maps/mp/zombies/_zm_weapons::get_pack_a_punch_weapon_options, ::get_pack_a_punch_weapon_options);
